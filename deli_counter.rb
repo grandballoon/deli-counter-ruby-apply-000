@@ -7,13 +7,13 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |person|
-      person = "#{person.index + 1}. person"
+      
     end
     end
     new_list = array.join(" ")
   end
         puts "The line is currently: " + new_list
-end
+
 
 def take_a_number(array, name)
   array << name
