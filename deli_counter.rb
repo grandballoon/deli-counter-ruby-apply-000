@@ -11,7 +11,7 @@ def line(array)
     puts "The line is currently: " + new_list
 end
 
-def take_a_number(array, name)
+def take_a_number
   array << name
   puts "Welcome #{name}. You are number #{name.index + 1} in line."
 end
