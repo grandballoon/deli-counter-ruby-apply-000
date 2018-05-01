@@ -6,7 +6,11 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    new_list = array.join("#{array.each |person| person.index + 1}. ")
+    array.each do |person|
+      person = "#{person.index + 1}. person"
+    end
+    end
+    new_list = array.join(" ")
   end
         puts "The line is currently: " + new_list
 end
