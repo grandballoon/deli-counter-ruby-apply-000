@@ -13,7 +13,6 @@ end
 
 def take_a_number(array, name)
   array << name
-  number = array.index("name")
-  final_number = number.to_i + 1
+  number = array.length
   puts "Welcome, #{name}. You are number #{final_number} in line."
 end
