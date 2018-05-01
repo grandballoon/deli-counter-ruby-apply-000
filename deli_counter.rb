@@ -7,7 +7,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |person|
-    spot = array.index("person") + 1
+    spot = array.index("person").to_i + 1
     new_list = array.join("#{spot}. ")
   end
         puts "The line is currently: " + new_list
