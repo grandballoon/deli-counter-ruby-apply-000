@@ -6,7 +6,8 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    new_list = array.join(" ").to_s
+    new_list = array.join(" ")
+    final_list = new_list.to_s
     end
     puts "The line is currently: " + new_list
 
