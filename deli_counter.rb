@@ -7,8 +7,8 @@ def line(array)
     puts "The line is currently empty."
   else
     new_list = array.join(" ")
+        puts "The line is currently: "
     end
-    puts "The line is currently: "
 end
 
 def take_a_number(array, name)
