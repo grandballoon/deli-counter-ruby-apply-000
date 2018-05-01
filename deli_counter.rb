@@ -6,7 +6,7 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    new_list = array.join("#{spot}. ")
+    new_list = array.join("#{array - array.length + 1}. ")
   end
         puts "The line is currently: " + new_list
 end
