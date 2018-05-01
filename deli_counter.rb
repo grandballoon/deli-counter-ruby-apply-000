@@ -3,9 +3,14 @@ katz_deli = []
 
 
 def line(array)
+  reactive_line = []
   if array.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: 1. #{array[0]} 2. #{array[1]} 3. #{array[2]}"
+    array.each do |person|
+     spot = person.index += 1 
+     reactive_line << "#{}"
+    end
+    puts "The line is currently: 1. #{reactive_line}"
   end
 end
