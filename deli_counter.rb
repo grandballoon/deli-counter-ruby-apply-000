@@ -10,8 +10,9 @@ def line(array)
       person = "#{array.index("person").to_i + 1}. person"
     end
     new_list = array.join(" ")
+      puts "The line is currently: " + new_list
   end
-        puts "The line is currently: " + new_list
+      
 end
 
 def take_a_number(array, name)
