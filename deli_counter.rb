@@ -8,11 +8,10 @@ def line(array)
   else
     new_list = array.join(" ")
     end
-    puts "The line is currently: " + final_list
-
+    puts "The line is currently: " + new_list
 end
 
-def take_a_number
+def take_a_number(array, name)
   array << name
   puts "Welcome #{name}. You are number #{name.index + 1} in line."
 end
