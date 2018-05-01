@@ -8,8 +8,7 @@ def line(array)
   else
     numbered_list = []
     array.each_with_index do |person, index|
-      spot = index + 1
-      person = "#{spot}. #{person}"
+      person = "#{index + 1}. #{person}"
       numbered_list << person
     end
     new_list = numbered_list.join(" ")
