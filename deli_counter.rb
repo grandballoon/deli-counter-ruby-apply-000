@@ -8,7 +8,6 @@ def line(array)
   else
     array.each do |person|
       person = "#{array.index("person").to_i + 1}. person"
-
     end
     new_list = array.join(" ")
   end
