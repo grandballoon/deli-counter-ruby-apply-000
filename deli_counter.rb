@@ -9,7 +9,7 @@ def line(array)
     new_list = array.join(" ")
     end
     puts "The line is currently:" + new_list
-  end
+
 end
 
 def take_a_number
