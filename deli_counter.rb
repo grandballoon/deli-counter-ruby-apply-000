@@ -12,7 +12,7 @@ def line(array)
       person = "#{spot}. #{person}"
       numbered_list << person
     end
-    new_list = array.join(" ")
+    new_list = numbered_list.join(" ")
       puts "The line is currently: " + new_list
   end
 
