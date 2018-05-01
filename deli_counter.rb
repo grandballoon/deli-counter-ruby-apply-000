@@ -8,8 +8,8 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |person|
-     spot = person.index += 1 
-     reactive_line << "#{}"
+     spot = person.index += 1
+     reactive_line << spot
     end
     puts "The line is currently: 1. #{reactive_line}"
   end
