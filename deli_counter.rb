@@ -13,5 +13,6 @@ end
 
 def take_a_number(array, name)
   array << name
+  number = name.index += 1
   puts "Welcome #{name}. You are number #{name.index + 1} in line."
 end
